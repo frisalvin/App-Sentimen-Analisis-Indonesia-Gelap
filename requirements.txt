@@ -7,4 +7,3 @@ scikit-learn
 nltk
 Sastrawi
 openpyxl
-sentencepiece
