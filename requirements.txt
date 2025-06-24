@@ -1,0 +1,10 @@
+gdown
+streamlit
+torch
+transformers
+pandas
+scikit-learn
+nltk
+Sastrawi
+openpyxl
+sentencepiece
