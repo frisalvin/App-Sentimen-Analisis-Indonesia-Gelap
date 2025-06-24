@@ -28,6 +28,7 @@ try:
     tokenizer = AutoTokenizer.from_pretrained(f"{model_path}/tokenizer")
     tokenizer_fast = BertTokenizerFast.from_pretrained(f"{model_path}/tokenizer")
     model = AutoModelForSequenceClassification.from_pretrained(model_path)
+    model.to("cpu")
     model.eval()
 except Exception as e:
     st.error(f"Gagal memuat model sentimen: {e}")
